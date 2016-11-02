@@ -51,6 +51,7 @@ namespace MathApp
 			this.btnStatus.TabIndex = 0;
 			this.btnStatus.Text = "Inciar/cerrar sesión";
 			this.btnStatus.UseVisualStyleBackColor = true;
+			this.btnStatus.Click += new System.EventHandler(this.BtnStatusClick);
 			// 
 			// lblEstado
 			// 
@@ -83,6 +84,7 @@ namespace MathApp
 			this.btnAceptar.TabIndex = 4;
 			this.btnAceptar.Text = "Aceptar";
 			this.btnAceptar.UseVisualStyleBackColor = true;
+			this.btnAceptar.Click += new System.EventHandler(this.BtnAceptarClick);
 			// 
 			// frmConfiguracion
 			// 
