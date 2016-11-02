@@ -15,5 +15,15 @@ namespace MathApp
 		{
 			
 		}
+		
+		void BtnAceptarClick(object sender, EventArgs e)
+		{
+			
+		}
+		
+		void BtnStatusClick(object sender, EventArgs e)
+		{
+			
+		}
 	}
 }
