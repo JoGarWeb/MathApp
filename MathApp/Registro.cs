@@ -10,5 +10,10 @@ namespace MathApp
 		{
 			InitializeComponent();
 		}
+		
+		void BtnAceptarClick(object sender, EventArgs e)
+		{
+			
+		}
 	}
 }
